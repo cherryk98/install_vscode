@@ -20,6 +20,8 @@ VS Codeは軽量で、WindowsだけでなくMacやLinuxでも動作するとい�
 
 ### 3. プログラミング言語の開発環境構築
 
+- [Python](https://github.com/cherryk98/install_vscode/python.md)
+
 　
 
 　
