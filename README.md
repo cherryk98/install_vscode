@@ -10,7 +10,7 @@ VS Codeは軽量で、WindowsだけでなくMacやLinuxでも動作するとい�
 
 ### 1. インストーラをダウンロード
 
-[ここ](https://code.visualstudio.com/)でインストーラをダウンロードするし、起動する。
+[ここ](https://code.visualstudio.com/)でインストーラをダウンロードし、起動する。
 
 ### 2. Vimのプラグイン
 
@@ -18,10 +18,14 @@ VS Codeは軽量で、WindowsだけでなくMacやLinuxでも動作するとい�
 
 再起動すると適用される。
 
+### 3. プログラミング言語の開発環境構築
+
 　
 
 　
- 
+
+　
+
 ↓Markdownの書き方メモ
 
 ```markdown
