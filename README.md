@@ -1,12 +1,18 @@
-## Welcome to GitHub Pages
+## VS Codeインストール
 
-You can use the [editor on GitHub](https://github.com/cherryk98/install_vscode/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Vimを使い続けるのをあきらめてしまった。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Vimの設定を凝るようになったこの頃、設定ファイルをGithubに保存して、他のLinux環境でクローンするだけで使えるようにするという野望があった。
 
-### Markdown
+Pythonに加え、GoやHaskellといった言語の補完を自動でできるようにして、必要十分な理想の開発環境を築いていたが、Win10のWSLのUbuntu 18.04でうまく動いていた設定がGCPのUbuntu 18.04ではエラーだらけになった。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+VS Codeは軽量で、WindowsだけでなくMacやLinuxでも動作するという話なので、Vimの代替案として検討すべきだろうということで、今回インストールしてみる。
+
+### 1. インストーラをダウンロード
+
+[ここ](https://code.visualstudio.com/)でインストーラをダウンロードする。
+
+↓Markdownの書き方
 
 ```markdown
 Syntax highlighted code block
@@ -25,13 +31,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cherryk98/install_vscode/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
