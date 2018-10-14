@@ -10,9 +10,19 @@ VS Codeは軽量で、WindowsだけでなくMacやLinuxでも動作するとい�
 
 ### 1. インストーラをダウンロード
 
-[ここ](https://code.visualstudio.com/)でインストーラをダウンロードする。
+[ここ](https://code.visualstudio.com/)でインストーラをダウンロードするし、起動する。
 
-↓Markdownの書き方
+### 2. Vimのプラグイン
+
+拡張機能検索で"vim"と検索し、インストールされている数の多いものを入れる。
+
+再起動すると適用される。
+
+　
+
+　
+ 
+↓Markdownの書き方メモ
 
 ```markdown
 Syntax highlighted code block
