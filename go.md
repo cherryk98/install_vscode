@@ -23,13 +23,13 @@ PATH=%GOPATH%\bin
 
 VS Code上でGoの拡張機能をインストールする。
 
-また、インストールした拡張機能を動作させるために、以下のコマンドでパッケージを入れる。
+また、インストールした拡張機能を動作させるために、以下のコマンドでGoのツール群を入れる。
 
 ``` command
 go get -u -v github.com/nsf/gocode
 go get -u -v github.com/rogpeppe/godef
 go get -u -v github.com/zmb3/gogetdoc
-go get -u -v github.com/golang/lint/golint
+go get -u -v golang.org/x/lint/golint
 go get -u -v github.com/lukehoban/go-outline
 go get -u -v sourcegraph.com/sqs/goreturns
 go get -u -v golang.org/x/tools/cmd/gorename
@@ -39,7 +39,7 @@ go get -u -v golang.org/x/tools/cmd/guru
 go get -u -v github.com/cweill/gotests/...
 ```
 
-上のコマンドでインストールした後も、別のパッケージのインストールや更新を求められるので、その都度従う。
+上のコマンドでインストールした後も、別のパッケージのインストールや更新を求められる場合はその都度従う。
 
 ### delveインストール
 
