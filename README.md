@@ -24,6 +24,8 @@ VS Codeは軽量で、WindowsだけでなくMacやLinuxでも動作するとい�
 - [Go](https://github.com/cherryk98/install_vscode/blob/master/go.md)
 - [haskell](https://github.com/cherryk98/install_vscode/blob/master/haskell.md)
 
+環境が整ったら、「F5」でデバッグ、「Ctrl+F5」で実行。
+
 　
 
 　
