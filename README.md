@@ -1,12 +1,6 @@
 ## VS Codeインストール
 
-Vimを使い続けるのをあきらめてしまった。
-
-Vimの設定を凝るようになったこの頃、設定ファイルをGithubに保存して、他のLinux環境でクローンするだけで使えるようにするという野望があった。
-
-Pythonに加え、GoやHaskellといった言語の補完を自動でできるようにして、必要十分な理想の開発環境を築いていたが、Win10のWSLのUbuntu 18.04でうまく動いていた設定がGCPのUbuntu 18.04ではエラーだらけになった。
-
-VS Codeは軽量で、WindowsだけでなくMacやLinuxでも動作するという話なので、Vimの代替案として検討すべきだろうということで、今回インストールしてみる。
+VS Codeのインストール・設定メモ
 
 ### 1. インストーラをダウンロード
 
@@ -22,32 +16,5 @@ VS Codeは軽量で、WindowsだけでなくMacやLinuxでも動作するとい�
 
 - [Python](https://github.com/cherryk98/install_vscode/blob/master/python.md)
 - [Go](https://github.com/cherryk98/install_vscode/blob/master/go.md)
-- [haskell](https://github.com/cherryk98/install_vscode/blob/master/haskell.md)
 
-環境が整ったら、「F5」でデバッグ、「Ctrl+F5」で実行。
-
-　
-
-　
-
-　
-
-↓Markdownの書き方メモ
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+環境が整ったら、`F5`でデバッグ、`Ctrl+F5`で実行。
