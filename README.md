@@ -18,6 +18,7 @@ Vimからの乗り換えだから、Vimのキーバインドとプログラミ�
 
 - [Python](https://github.com/cherryk98/install_vscode/blob/master/python.md)
 - [Go](https://github.com/cherryk98/install_vscode/blob/master/go.md)
+- [HTML](https://github.com/cherryk98/install_vscode/blob/master/html.md)
 
 環境が整ったら、`F5`でデバッグ、`Ctrl+F5`で実行。
 
