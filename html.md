@@ -12,8 +12,8 @@ HTMLもJavaScriptも、デフォルトで多くの機能が対応しているの
 
 右側のユーザー設定に"emmet.variables"が追加されるので、追加された部分を以下のように編集する。
 
-`
+```
 "emmet.variables": {
   "lang": "ja"
 }
-`
+```
