@@ -29,27 +29,34 @@ Vimからの乗り換えだから、Vimのキーバインドとプログラミ�
 
 VS Code左下の歯車アイコンから"keyboard shortcuts"を選択。
 
++ "cursorLeft"に`Ctrl+H`を割り当てて、移動できるようにする。
+
++ "cursorRight"に`Ctrl+L`を割り当てて、移動できるようにする。
+
 + "list.focusDown"に`Ctrl+J`を割り当てて、補完候補を選べるようにする。
 
 + "list.focusUp"に`Ctrl+K`を割り当てて、補完候補を選べるようにする。
 
-（上の２つはデフォルトで使えるかもしれないので要確認）
-
-+ "cursorLeft"に`Ctrl+H`を割り当てて、移動できるようにする。
-
-+ "cursorDown"に`Ctrl+J`を割り当てて、移動できるようにする。
-
-+ "cursorUp"に`Ctrl+K`を割り当てて、移動できるようにする。
-
-+ "cursorRight"に`Ctrl+L`を割り当てて、移動できるようにする。
+（下２つはデフォルトで使えるかもしれないので要確認）
 
 設定後、"keybindings.json"を開いて、余計な設定を削除し手直しする。
 
-以下のような設定ファイルになった。
+以下のような設定ファイルになる。
 
 ```
 // Place your key bindings in this file to overwrite the defaults
 [
+
+    {
+        "key": "ctrl+h",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
     {
         "key": "ctrl+j",
         "command": "list.focusDown",
@@ -59,26 +66,6 @@ VS Code左下の歯車アイコンから"keyboard shortcuts"を選択。
         "key": "ctrl+k",
         "command": "list.focusUp",
         "when": "listFocus && !inputFocus"
-    },
-    {
-        "key": "ctrl+h",
-        "command": "cursorLeft",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "cursorDown",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "cursorUp",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+l",
-        "command": "cursorRight",
-        "when": "textInputFocus"
     }
 ]
 ```
