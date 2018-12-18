@@ -29,15 +29,17 @@ Vimからの乗り換えだから、Vimのキーバインドとプログラミ�
 
 VS Code左下の歯車アイコンから"keyboard shortcuts"を選択。
 
-+ "cursorLeft"に`Ctrl+H`を割り当てて、移動できるようにする。
++ "cursorLeft"に`Ctrl+H`を割り当て、移動できるようにする。
 
-+ "cursorRight"に`Ctrl+L`を割り当てて、移動できるようにする。
++ "cursorRight"に`Ctrl+L`を割り当て、移動できるようにする。
 
-+ "list.focusDown"に`Ctrl+J`を割り当てて、補完候補を選べるようにする。
++ "list.focusDown"に`Ctrl+J`を割り当て、補完候補を選べるようにする。
 
-+ "list.focusUp"に`Ctrl+K`を割り当てて、補完候補を選べるようにする。
++ "list.focusUp"に`Ctrl+K`を割り当て、補完候補を選べるようにする。
 
-（下２つはデフォルトで使えるかもしれないので要確認）
++ "editor.action.format"に`Ctrl+F`を割り当て、フォーマットできるようにする。
+
++ "workbench.action.openNextRecentlyUsedEditorInGroup"に`Ctrl+Space`を割り当て、タブを選べるようにする。
 
 設定後、"keybindings.json"を開いて、余計な設定を削除し手直しする。
 
@@ -46,7 +48,6 @@ VS Code左下の歯車アイコンから"keyboard shortcuts"を選択。
 ```
 // Place your key bindings in this file to overwrite the defaults
 [
-
     {
         "key": "ctrl+h",
         "command": "cursorLeft",
@@ -66,6 +67,14 @@ VS Code左下の歯車アイコンから"keyboard shortcuts"を選択。
         "key": "ctrl+k",
         "command": "list.focusUp",
         "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "editor.action.format"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "workbench.action.openNextRecentlyUsedEditorInGroup"
     }
 ]
 ```
