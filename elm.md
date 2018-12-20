@@ -4,7 +4,11 @@ Elmの開発環境をVSCodeで構築する。
 
 ### Elmインストール
 
-Elmのインストールを[ここ](https://guide.elm-lang.jp/install.html)を参考に行う。
+Elmインストールの前にNode.jsをインストールしなければならない。
+
+Windowsの場合は[公式ページ](https://nodejs.org/ja/download/)からインストーラをダウンロードできる。
+
+Node.jsインストール後、Elmのインストールを[ここ](https://guide.elm-lang.jp/install.html)を参考に行う。
 
 ### Elm拡張機能
 
