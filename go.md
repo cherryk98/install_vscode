@@ -23,9 +23,7 @@ Linuxの場合は".go"ディレクトリの作成後VSCode内で環境変数を�
 
 ```
 {
-    "go.gopath": "/home/[ユーザー名]/.go",
-
-    "go.formatOnSave": true
+    "go.gopath": "/home/[ユーザー名]/.go"
 }
 ```
 
