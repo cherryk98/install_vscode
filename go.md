@@ -19,7 +19,7 @@ GOPATH=%USERPROFILE%\go
 PATH=%GOPATH%\bin
 ```
 
-Linuxの場合は"~/.go"ディレクトリを作成したあと"~/.bashrc"に以下を必ず追記する。
+Linuxの場合は".go"ディレクトリを作成したあと".bashrc"に以下を必ず追記する。
 
 ```
 export GOPATH=$HOME/.go
