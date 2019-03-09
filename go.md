@@ -19,6 +19,13 @@ GOPATH=%USERPROFILE%\go
 PATH=%GOPATH%\bin
 ```
 
+Linuxの場合は"~/.go"ディレクトリを作成したあと"~/.bashrc"に以下を必ず追記する。
+
+```
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOPATH/bin
+```
+
 ### VS Codeの拡張
 
 VS Code上でGoの拡張機能をインストールする。
