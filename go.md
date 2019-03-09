@@ -19,6 +19,16 @@ GOPATH=%USERPROFILE%\go
 PATH=%GOPATH%\bin
 ```
 
+Linuxの場合は".go"ディレクトリの作成後VSCode内で環境変数を設定する。Setting.jsonを以下の内容で作成する。
+
+```
+{
+    "go.gopath": "/home/[ユーザー名]/.go",
+
+    "go.formatOnSave": true
+}
+```
+
 ### VS Codeの拡張
 
 VS Code上でGoの拡張機能をインストールする。
